@@ -44,4 +44,7 @@ assets/js/min.*
 .netlify
 
 .vscode
+.vscode1/*
 .idea
+
+.idea/*
