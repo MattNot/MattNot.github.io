@@ -2,7 +2,7 @@ require("dotenv").config();
 
 module.exports = {
     // Website title, shown in left sidebar and in page title
-    title: "{ Matteo Notaro }",
+    title: "Matteo Notaro",
     // Site URL to generate absolute URLs. Used across the board.
     url: process.env.URL || "http://localhost:8080",
     // Profile image for left sidebar
@@ -21,4 +21,6 @@ module.exports = {
     socialGitHub: "MattNot",
     // LinkedIn ID  (optional, remove it not needed), used for link in the left sidebar
     socialLinkedIn: "matteo-notaro",
+
+    googleAnalytics: "G-9X18SGCT31"
 };
