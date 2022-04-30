@@ -6,11 +6,12 @@ media_folder: "assets/uploads" # Media files will be stored in the repo under im
 collections:
   - name: "posts"
     label: "posts"
-    folder: "content/posts/{{year}}"
+    folder: "content/posts/2022"
     create: true
     slug: "{{slug}}-{{year}}-{{month}}-{{day}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Publish Date", name: "date", widget: "datetime"}
       - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Technology", name: "tech", widget: "string", required: false }
